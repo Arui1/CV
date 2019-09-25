@@ -117,3 +117,11 @@ int main(int argc, char const *argv[])
     releaseNet(handle,&code,&err);
     return 0;
 }
+
+
+{"confidences":[{"index":0,"score":0.543734610080719,"class":"normal","subclass":"normal"},
+                {"index":2,"score":0.37931761145591738,"class":"sexy","subclass":"sexy"},
+                {"index":1,"score":0.07694774866104126,"class":"pulp","subclass":"pulp"}]}
+{"confidences":[{"index":2,"score":0.9020416736602783,"class":"sexy","subclass":"sexy"},
+                {"index":0,"score":0.053318582475185397,"class":"normal","subclass":"normal"},
+                {"index":1,"score":0.04463980346918106,"class":"pulp","subclass":"pulp"}]}
